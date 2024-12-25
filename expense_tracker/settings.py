@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-w%+=!v8d_zc$4%izw%ik-+0jvo@-n9ia-o!jdi(@8m4ng!a1x#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'expensetracker-8k2q.onrender.com',  # Add your Render app domain
+    'localhost',  # Optional: Allow local access for debugging
+    '127.0.0.1',  # Optional: Allow loopback access
+]
+
 
 
 # Application definition

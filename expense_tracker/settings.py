@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-w%+=!v8d_zc$4%izw%ik-+0jvo@-n9ia-o!jdi(@8m4ng!a1x#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False 
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'expensetracker-8k2q.onrender.com',  # Add your render.com domain
